@@ -2,16 +2,18 @@
 
 int main(){
     int a;
-    printf("Enter the unteger:");
+    printf("\nEnter the integer:");
     scanf("%d",&a);
 
-    if(0<a)
+    if(a%2==0)
     {
-        printf("integer is positive");
+        printf("\nInteger is even");
+        
     }
-    if(0>a)
+    else
     {
-        printf("integer is negative");
+        printf("\nInteger is odd\n");
+        printf("Reminder %d",a%2);
     }
     
     return 0;
