@@ -6,4 +6,4 @@ int main(){
     printf(" The hexadecimal contant is:%x\n",hexadeciaml);
 
     return 0;
-}
+}   
